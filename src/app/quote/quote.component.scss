@@ -1,0 +1,48 @@
+
+.intro-header {
+    height: unset !important;
+  }
+//   .intro-2 {
+//     background: url("https://mdbootstrap.com/img/Others/documentation/img%20(75)-mini.jpg")no-repeat center center;
+//     background-size: cover;
+//   }
+  .view {
+    height: 100vh !important;
+  }
+  .top-nav-collapse {
+    background-color: #696969 !important;
+  }
+  .navbar:not(.top-nav-collapse) {
+    background: transparent !important;
+  }
+  @media (max-width: 780px) {
+    .navbar:not(.top-nav-collapse) {
+      background: #010414 !important;
+    }
+  }
+  .rgba-gradient .full-bg-img {
+    background: linear-gradient(45deg, rgba(1, 5, 14, 0.4), rgba(178, 30, 123, 0.4) 100%);
+  }
+  .card {
+    background-color: rgb(255,0,255);
+  }
+  
+  .md-form .prefix {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+  }
+  .md-form label {
+    color: hsl(0, 21%, 6%);
+  }
+  h6 {
+    line-height: 1.7;
+  }
+  @media (max-width: 740px) {
+    .full-height,
+    .full-height body,
+    .full-height header,
+    .full-height header .view {
+      height: 1040px;
+    }
+  }
+  
